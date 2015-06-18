@@ -1,0 +1,19 @@
+ul.dependencies {
+list-style: none;
+margin: 2px 0px 2px 5px;
+}
+
+ul.dependencies li {
+background-position:0px 0px;
+background-repeat:no-repeat;
+list-style-type:none;
+padding-left:18px;
+}
+
+ul.dependencies li.activated-dependency {
+background-image:url('../images/activated.png');
+}
+
+ul.dependencies li.deactivated-dependency {
+background-image:url('../images/deactivated.png');
+}
